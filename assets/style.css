@@ -1,11 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #011936;
+}
+
 body {
-    background-color: brown;
+    background-color:#F9DC5C;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
-    color: aquamarine;
+    font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    color: #465362;
 }
 
 .navItem {
