@@ -5,21 +5,22 @@
     color: #011936;
 }
 
+body {
+    background-color:#F9DC5C;
+}
+
 header {
     text-align: center;
     background-color: #011936;
 }
 
-body {
-    background-color:#F9DC5C;
-}
-
 main {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 footer {
     background-color: #011936;
+    text-align: center;
 }
 
 h1, h3 {
@@ -27,7 +28,21 @@ h1, h3 {
     color: #F4FFFD;
 }
 
-.navItem {
-    display: inline;
-    position: relative;
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+.dog {
+    display: flex;
+    align-items: center;
 }
