@@ -9,16 +9,40 @@ body {
     background-color:#F9DC5C;
 }
 
-h1 {
+header {
+    text-align: center;
+    background-color: #011936;
+}
+
+main {
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #011936;
+    text-align: center;
+}
+
+h1, h3 {
     font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    color: #F4FFFD;
 }
 
-h3 {
-    color: #465362;
+nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.navItem {
-    display: inline-block;
-    position: relative;
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+.dog {
+    display: flex;
+    align-items: center;
 }
