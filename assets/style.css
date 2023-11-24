@@ -5,20 +5,29 @@
     color: #011936;
 }
 
+header {
+    text-align: center;
+    background-color: #011936;
+}
+
 body {
     background-color:#F9DC5C;
 }
 
-h1 {
-    font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+main {
+    padding-top: 150px;
 }
 
-h3 {
-    color: #465362;
+footer {
+    background-color: #011936;
+}
+
+h1, h3 {
+    font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
+    color: #F4FFFD;
 }
 
 .navItem {
-    display: inline-block;
+    display: inline;
     position: relative;
 }
